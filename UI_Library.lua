@@ -1725,7 +1725,7 @@ function library:CreateWindow(options, ...)
 	windowFunctions.LastTab = nil
 	function windowFunctions:CreateTab(options, ...)
 		options = (options and (type(options) == "string") and resolvevararg("Tab", options, ...)) or options or {
-			Name = "Pepsi Style: Elite Lego Hax"
+			Name = "Ohio Style: Elite Lego Hax"
 		}
 		local image = options.Image
 		if image then
